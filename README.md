@@ -31,7 +31,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 
 Παιχνίδι που κουνάς έναν παίχτη πανω σε πλακάκια και δεν πρέπει να ακουμπήσεις το γρασίδι. 2D
 
-1.1 Δημιουργια
+2.1 Δημιουργια
 - Δημιουργια Project
 - Root node. Δειξε πως να κανεις rename nodes
 - Δειξε πως θετουμε main scene στα project settings
@@ -39,7 +39,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Βαλε ενα texture rect node . Strech mode = Tile
 - Βαλε το grass.png στο texture να καλυπτει ολο το view
 
-1.2 Παίχτης
+2.2 Παίχτης
 - Φτιαξε το player scene
   - Η δομη θα ειναι η εξης
     - rigidbody2D
@@ -50,3 +50,14 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Βαλε ενα collision shape στον παιχτη
 - Κλεισε βαρυτητα απο rigidbody
 - Βαλε το player scene στο main scene
+
+2.3 2D
+- Εξηγησε το 2D coordinate system
+  - Δειξε πως αλλαζει το transform
+  - Vector math???
+- Εξηγησε το parent to children relationship στα nodes (transform κυριως)
+- Δειξε οτι το παιδι βρισκεται στο (0,0) σε σχεση με τον γονέα
+- Δειξε οτι αμα κουνησω το parent κουνιεται το child
+- Δειξε και το top level checkbox για λιγο
+- Εξηγησε draw order of nodes (scene hierarchy)
+- Πες οτι το πανω ειναι χαλια και εξηγησε το Z index

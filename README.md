@@ -4,7 +4,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 
 ## Περιεχόμενα
 
-### Εισαγωγή
+### 1. Εισαγωγή
 1.1 Λήψη Godot
 - Λήψη Godot
 - Δημιουργούμε νεο project με Godot
@@ -26,3 +26,27 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Show toolbar controls (move, rotate, scale)
 - Show some shortcuts for transformations
 - Show duplication of 2D node
+
+### 2. Don't Touch Grass
+
+Παιχνίδι που κουνάς έναν παίχτη πανω σε πλακάκια και δεν πρέπει να ακουμπήσεις το γρασίδι. 2D
+
+1.1 Δημιουργια
+- Δημιουργια Project
+- Root node. Δειξε πως να κανεις rename nodes
+- Δειξε πως θετουμε main scene στα project settings
+- Κανε import 2D assets. Δειξω πως
+- Βαλε ενα texture rect node . Strech mode = Tile
+- Βαλε το grass.png στο texture να καλυπτει ολο το view
+
+1.2 Παίχτης
+- Φτιαξε το player scene
+  - Η δομη θα ειναι η εξης
+    - rigidbody2D
+      - sprited
+- Παρε το player.png απο τα assets και βαλε το. Βαλε το scale στους αξονες στο 0.08
+- Εξηγησε τι ειναι collision
+- Εξηγησε τι ειναι το Rigidbody2D και το CollisionShape2D
+- Βαλε ενα collision shape στον παιχτη
+- Κλεισε βαρυτητα απο rigidbody
+- Βαλε το player scene στο main scene

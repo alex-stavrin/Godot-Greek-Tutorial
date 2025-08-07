@@ -61,3 +61,51 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Δειξε και το top level checkbox για λιγο
 - Εξηγησε draw order of nodes (scene hierarchy)
 - Πες οτι το πανω ειναι χαλια και εξηγησε το Z index
+
+2.4 Scripting
+- Πες λιγο τι ειναι κωδικας (ειναι πρωτοετης μπορει να μην εχουν δει κωδικα ποτε)
+- Πες οτι τα scripts γινονται attach σε nodes
+- Φτιαξε ενα νεο script για τον παιχτη και βαλε το στο player scene στο root node (extends RigidBody2D)
+- Εξηγησε το extends (λιγο)
+- Δειξε τι ειναι function. Πως φτιαχνουμε function. Πως καλουμε
+- Εξηγησε τα tabs
+- Εξηγησε τι κανει το print
+- Εξηγησε τι κανει και ποτε εκτελειται το _ready
+- Κανε ενα print στο ready. "Hello GameDev"
+- Δειξε μερικες πραξεις σε αριθμους
+
+2.5 Συνεχεια στα Scripts
+- Δειξε μεταβλητες
+- Δειξε διαφορους τυπους μεταβλητων
+- Δειξε παραμετρους σε functions
+- Εξηγησε τα frames per second
+- Εξηγησε τι κανει το proccess function
+- Εξηγησε τι κανει το physics process
+- Εξηγησε τα if statements και boolean operators και >,< κτλπ 
+
+2.6 Input παίχτη
+- Εξηγησε τι ειναι input map
+- Εξηγησε τι ειναι ενα action
+- Δειξε πως φτιαχνουμε actions και φτιαξε actions
+  - move_right
+  - move_left
+  - move_up
+  - move_down
+- Κανε τον παιχτη να κινηθει με apply force στο physics process
+- Εξηγησε variable scope
+- Βαλε μια global μεταβλητη για να ελεγχει ταχυτητα (οχι ακομα export)
+- Δειξε πως κανουμε return απο function
+
+2.7 Camera
+- βαλε camera 2d στον παιχτη
+- βαλε damping στο rigidbody = 3 (optional: εξηγησε το λιγο)
+- βαλε ταχυτητα στον παιχτη = 300
+- φτιαχνουμε ενα νεο scene για τα tiles
+  - root node θα ειναι area2d (εξηγησε το λιγο)
+  - ενα polygon collision shape
+  - ενα polygon texture (tile.png)
+  - φτιαξε τα uvs και βαλε το texture να κανει repeat
+  - φτιαξε ενα level με το polygon
+- βαλε το level στο main scene μας
+
+2.8 Signals

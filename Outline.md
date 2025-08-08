@@ -5,11 +5,11 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 ## Περιεχόμενα
 
 ### 1. Εισαγωγή
-1.1 Λήψη Godot
+1.1 Λήψη Godot **DONE**
 - Λήψη Godot
 - Δημιουργούμε νεο project με Godot
   
-1.2 Godot Interface Εισαγωγή
+1.2 Godot Interface Εισαγωγή **DONE**
 - Εισαγωγή στα workspaces (2D,3D,Script)
 - Έμφαση στο 2D Viewport. Δείχνουμε κουμπιά για περιήγηση στο viewport
 - Επεξηγηση του Scene Tab. Επεξηγηση τι είναι scene και τι node

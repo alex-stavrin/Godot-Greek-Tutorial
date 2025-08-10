@@ -1,4 +1,4 @@
-# Godot Interface
+# 1.2 Godot Interface
 Αυτό είναι το Godot Editor
 ![alt text](image.png)
 Πάνω έχουμε τα διάφορα **Workspaces**.

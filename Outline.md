@@ -16,7 +16,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Επεξηγηση του inspector tab φτιαχνοντας ενα απλο 2D node και πατώντας click
 - Επεξηγηση του file system tab
 
-1.3 Εξερευνωντας nodes
+1.3 Εξερευνωντας nodes **DONE**
 - Φτιαχνουμε μια 2D σκηνη
 - Βαζουμε ενα sprite node με το texture που δινει ο godot
 - Κανουμε save την σκηνη
@@ -31,7 +31,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 
 Παιχνίδι που κουνάς έναν παίχτη πανω σε πλακάκια και δεν πρέπει να ακουμπήσεις το γρασίδι. 2D
 
-2.1 Δημιουργια
+2.1 Δημιουργια **DONE**
 - Δημιουργια Project
 - Root node. Δειξε πως να κανεις rename nodes
 - Δειξε πως θετουμε main scene στα project settings
@@ -109,3 +109,8 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - βαλε το level στο main scene μας
 
 2.8 Signals
+- Φτιαχνουμε ενα νεο script στο root node του main level
+- Κανουμε connect το body exited signal του area 2d maze στο level script
+- Μολις βγει ο παιχτης κανε reload το level (get_tree().reload_current_scece()). εξηγησε λιγο τι κανει αυτο
+- κανε parallax το background (canvas layer)
+- βαλε start και end labels

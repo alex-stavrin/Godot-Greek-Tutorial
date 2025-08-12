@@ -52,9 +52,6 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Βαλε το player scene στο main scene
 
 2.3 2D
-- Εξηγησε το 2D coordinate system
-  - Δειξε πως αλλαζει το transform
-  - Vector math???
 - Εξηγησε το parent to children relationship στα nodes (transform κυριως)
 - Δειξε οτι το παιδι βρισκεται στο (0,0) σε σχεση με τον γονέα
 - Δειξε οτι αμα κουνησω το parent κουνιεται το child

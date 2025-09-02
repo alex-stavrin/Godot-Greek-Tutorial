@@ -63,7 +63,6 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Πες λιγο τι ειναι κωδικας (ειναι πρωτοετης μπορει να μην εχουν δει κωδικα ποτε)
 - Πες οτι τα scripts γινονται attach σε nodes
 - Φτιαξε ενα νεο script για τον παιχτη και βαλε το στο player scene στο root node (extends RigidBody2D)
-- Εξηγησε το extends (λιγο)
 - Δειξε τι ειναι function. Πως φτιαχνουμε function. Πως καλουμε
 - Εξηγησε τα tabs
 - Εξηγησε τι κανει το print

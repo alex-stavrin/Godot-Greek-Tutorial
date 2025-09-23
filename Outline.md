@@ -39,7 +39,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Βαλε ενα texture rect node . Strech mode = Tile
 - Βαλε το grass.png στο texture να καλυπτει ολο το view
 
-2.2 Παίχτης
+2.2 Παίχτης **DONE**
 - Φτιαξε το player scene
   - Η δομη θα ειναι η εξης
     - rigidbody2D
@@ -51,7 +51,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Κλεισε βαρυτητα απο rigidbody
 - Βαλε το player scene στο main scene
 
-2.3 2D
+2.3 2D **DONE**
 - Εξηγησε το parent to children relationship στα nodes (transform κυριως)
 - Δειξε οτι το παιδι βρισκεται στο (0,0) σε σχεση με τον γονέα
 - Δειξε οτι αμα κουνησω το parent κουνιεται το child
@@ -59,7 +59,7 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Εξηγησε draw order of nodes (scene hierarchy)
 - Πες οτι το πανω ειναι χαλια και εξηγησε το Z index
 
-2.4 Scripting
+2.4 Scripting **DONE**
 - Πες λιγο τι ειναι κωδικας (ειναι πρωτοετης μπορει να μην εχουν δει κωδικα ποτε)
 - Πες οτι τα scripts γινονται attach σε nodes
 - Φτιαξε ενα νεο script για τον παιχτη και βαλε το στο player scene στο root node (extends RigidBody2D)

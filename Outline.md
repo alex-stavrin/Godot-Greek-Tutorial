@@ -70,13 +70,12 @@ Repository για το υλικό για εκμάθηση Godot του Dit Codin
 - Κανε ενα print στο ready. "Hello GameDev"
 - Δειξε μερικες πραξεις σε αριθμους
 
-2.5 Συνεχεια στα Scripts
+2.5 Συνεχεια στα Scripts **DONE**
 - Δειξε μεταβλητες
 - Δειξε διαφορους τυπους μεταβλητων
 - Δειξε παραμετρους σε functions
 - Εξηγησε τα frames per second
 - Εξηγησε τι κανει το proccess function
-- Εξηγησε τι κανει το physics process
 - Εξηγησε τα if statements και boolean operators και >,< κτλπ 
 
 2.6 Input παίχτη

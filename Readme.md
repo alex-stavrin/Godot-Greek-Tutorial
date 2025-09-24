@@ -1,2 +1,2 @@
 # Godot Greek Tutorial
-A greek text tutorial for Dit Coding Club
+A greek Godot text tutorial for Dit Coding Club

@@ -232,7 +232,7 @@ container λειτουργεί ξανά ως container, με την προσθή
 αναβάθμισης θα συμπεριληφθούν σε ένα `VBoxContainer` (κατακόρυφο αυτή
 τη φορά) ενός `Label` και ενός `Button`! Συμβουλέψουν την εικόνα.
 
-[Upgrade UI Screenshot](./upgrade_ui.png)
+![Upgrade UI Screenshot](upgrade_ui.png)
 
 Για να σπάσει το κείμενό μας σε πολλαπλές γραμμές, θα ενεργοποιήσουμε
 την λειτουργία `Autowrap` με τιμή `Word (Smart)`. Για να αποτρέψουμε
@@ -277,7 +277,7 @@ func _ready() -> void:
 άλλο και το πρώτο θα επιβάλει ένα μέγιστο ύψος, πέρα από το οποίο θα
 εμφανίζει ένα scroll bar!
 
-[Total Upgrade UI Screenshot](./total_upgrades.png)
+![Total Upgrade UI Screenshot](total_upgrades.png)
 
 Τα αποτελέσματα θα εμφανιστούν προφανώς αφού τρέξεις το παιχνίδι,
 δηλαδή αφού εκτελεστεί η συνάρτηση `_ready` του `Upgrades` control
@@ -444,7 +444,7 @@ func _on_button_pressed() -> void:
 που ορίζονται από το πολύχρωμο παραλληλόγραμμο του editor. Για να το
 διορθώσουμε αυτό, πατάμε `Snap the Limits to the Viewport`
 
-[Snap UI](./snap.png)
+![Snap UI](snap.png)
 
 Θα θέλαμε να σχεδιάσουμε το εξής API: Για το κούνημα, αρκεί μονάχα ο
 πατέρας να εκτελέσει `%Camera.shake(20.0)` με όρισμα που δηλώνει την
